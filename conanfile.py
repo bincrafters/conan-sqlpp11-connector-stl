@@ -10,7 +10,7 @@ import os
 
 class sqlpp11Conan(ConanFile):
     name = "sqlpp11-connector-stl"
-    version = "0.4"
+    version = "0.5"
     description = "An experimental SQL connector for containers and streams of the C++ Standard Library."
     settings = "os", "compiler", "build_type", "arch"
     url = "https://github.com/bincrafters/conan-sqlpp11-connector-stl"
