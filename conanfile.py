@@ -29,7 +29,7 @@ class sqlpp11Conan(ConanFile):
 
     def source(self):
         tools.get("{0}/archive/{1}.tar.gz".format(self.homepage, self.version),
-                  sha256="05bd4fda37baeb5d802976d290f1c388abb46c7ec7ddcd72390e96fd51c324e4")
+                  sha256="31bf7c374ca9f03ae3c6eef8110333fcae040e30904d6870c5276c815d44fe7b")
         extracted_dir = self.name + "-" + self.version
         os.rename(extracted_dir, self._source_subfolder)
 
