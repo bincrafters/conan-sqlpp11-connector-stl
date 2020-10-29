@@ -55,5 +55,5 @@ class sqlpp11Conan(ConanFile):
         cmake = self._configure_cmake()
         cmake.install()
 
-    def package_info(self):
-        self.cpp_info.libs = ["sqlpp11-connector-stl"]
+    def package_id(self):
+        self.info.header_only()
